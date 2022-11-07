@@ -28,12 +28,15 @@ body {
     background-color: aliceblue;
     border-radius: 20px;
 
+
     box-sizing: border-box;
     overflow: hidden;;
 }
 
 .container img {
     margin: -20px; /*  Para contrarrestar el padding  de container*/
+    margin-bottom: 20px;
+    
     position: relative;
     /* height: 100%; */
     width: 120%;
@@ -42,7 +45,6 @@ body {
 
 
 .cart-button {
-    
     position: relative;
     justify-content: end;
     background-color: var(--green-color);
@@ -50,10 +52,7 @@ body {
     width: 100%;
     height: 30px;
     border: 0;
-    border-radius: 5px;
-
-    top: 10%;
-    
+    border-radius: 5px;    
 }
 
 
@@ -61,4 +60,9 @@ body {
     color: var( --green-color);
     font-size: 32px;
     font-weight: bold;
+}
+
+.old-price {
+    
+
 }
